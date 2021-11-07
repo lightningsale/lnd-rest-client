@@ -1,0 +1,29 @@
+{
+  "name": "@lightningsale/lnd-rest-client",
+  "version": "0.13.1",
+  "description": "OpenAPI client for Lightning Network Daemon",
+  "author": "OpenAPI-Generator Contributors",
+  "keywords": [
+    "lnd",
+    "lightning",
+    "client",
+    "rest",
+    "fetch",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.4",
+    "url-parse": "^1.4.3",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}
