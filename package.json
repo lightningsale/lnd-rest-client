@@ -1,6 +1,6 @@
 {
   "name": "@lightningsale/lnd-rest-client",
-  "version": "0.13.1-10",
+  "version": "0.13.1-11",
   "description": "OpenAPI client for lnd-rest-client",
   "author": "OpenAPI-Generator",
   "main": "./dist/index.js",
