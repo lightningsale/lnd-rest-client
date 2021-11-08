@@ -1,6 +1,6 @@
 {
-  "name": "lnd-rest-client",
-  "version": "0.13.1-6",
+  "name": "@lightningsale/lnd-rest-client",
+  "version": "0.13.1-10",
   "description": "OpenAPI client for lnd-rest-client",
   "author": "OpenAPI-Generator",
   "main": "./dist/index.js",
@@ -13,7 +13,6 @@
     "typescript": "^2.4"
   },
   "publishConfig": {
-    "registry": "@lightningsale",
     "access": "public"
   }
 }
