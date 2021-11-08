@@ -1,0 +1,19 @@
+{
+  "name": "lnd-rest-client",
+  "version": "0.13.1-6",
+  "description": "OpenAPI client for lnd-rest-client",
+  "author": "OpenAPI-Generator",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^2.4"
+  },
+  "publishConfig": {
+    "registry": "@lightningsale",
+    "access": "public",
+  }
+}
